@@ -255,7 +255,7 @@ function drawResults(sel, scenarios, name, complete, incomplete){
 }
 
 
-function color(d){ return {t: '#4CAF50', m: '#FF9800', f: '#F44336'}[d.advance] }
+function color(d){ return {t: '#2c7bb6', m: '#ffffbf', f: '#d7191c'}[d.advance] }
 
 d3.select('html').selectAppend('div.tooltip').classed('tooltip-hidden', 1)
 
